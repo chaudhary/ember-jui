@@ -5,7 +5,7 @@ if ('undefined' === typeof JUI) {
   @name JUI
   @version 1.0.alpha
 */
- JUI = {};
+ JUI = SC.Namespace.create();
 
 // aliases needed to keep minifiers from removing the global context
 if ('undefined' !== typeof window) {
